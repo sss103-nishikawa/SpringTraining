@@ -9,5 +9,6 @@ public class Main {
 		BeanFactory factory = new XmlBeanFactory(new FileSystemResource("beans.xml"));
 		CallName cn = factory.getBean("callName",CallName.class);
 		cn.callName("go my own way!");
+		
 	}
 }
